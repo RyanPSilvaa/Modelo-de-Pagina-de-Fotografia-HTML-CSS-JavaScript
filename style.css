@@ -73,11 +73,13 @@ main {
 
 #upload, #gallery {
     margin-bottom: 50px;
+    padding: 50px;
     background: white;
     display: flex;
     align-items: center;
     border: 1px solid black;
     border-radius: 5px;
+    justify-content: space-around;
 }
 
 #photogallery {
