@@ -3,3 +3,39 @@
     padding: 0px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#upload, #gallery {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.389);
+}
+
+#photogallery {
+    display: flex;
+    flex-wrap:  wrap;
+}
+
+.photo {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.photo img {
+    max-width: 150px;
+    max-height: 150px;
+}
