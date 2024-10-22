@@ -77,8 +77,8 @@ main {
     background: white;
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 5%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.384);
     justify-content: space-around;
 }
 
@@ -88,18 +88,18 @@ main {
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: center;
-    border: 1px solid black;
+    border-radius: 5px;
 }
 
 section > h2 {
     align-items: center;
 }
 
-.photo img{
-    display: flex;
+.photo > img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 180px;
     max-height: 180px;
+    border-radius: 5px;
 }
